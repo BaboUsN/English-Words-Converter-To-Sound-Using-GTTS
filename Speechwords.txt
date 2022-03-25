@@ -1,0 +1,41 @@
+attempt	girişimde bulunmak
+beverage	içecek, meşrubat
+chimney	baca
+conductive	iletken, allows heat or electricity to travel through it
+cylindrical	silindirik
+destruction	yıkım, tahribat
+diagnosis	teşhis, tanı
+domestic	Ülke içi; aile içi; evcil
+durable	dayanıklı,sağlam
+eliminate	ortadan kaldırmak, elemek, to remove or take away someone or something
+emit	yaymak, salmak
+exhale	nefes vermek, to send air out of your lungs
+feasible	uygulanabilir, gerçekleştirilebilir
+frustrate	boşa çıkarmak, hayal kırıklığı
+gum	diş eti, sakız,
+inhale	nefes almak, to breathe air, smoke, or gas into your lungs
+insulate	yalıtmak, izole etmek
+knot	a node is a localized
+lay	sermek, koymak, to put something in especially a flat or horizontal position, usually carefully
+lid	kapak (açılır kapanır)
+lie	yalan, uzanmak, to be in or move into a horizontal position on a surface:
+long since	uzun zamandan beri
+luminous	yansıtmak, parlamak
+maintain	to continue to have; to keep in existence
+mass	yığın, büyük, a large amount
+moisture	nem, rutubet, very small drops of water, either in the air or on a surface
+mutable	değişebilir, değişken
+obtain	elde etmek, edinmek (acquire)
+permanent	Daimi, kalıcı, lasting for a long time or for ever
+rays	ışın, ışımak (x-ışını)
+shift	vardiya, değiştirmek
+starve	açlıktan ölmek, to become weak or die because there is not enough food to eat
+steam	buhar, hot gas that is produced when water boils
+substance	material with particular physical characteristics:
+supply	to provide something
+swell	kabarmak, şişmek
+therefore	bundan dolayı, because of that
+tie	bağlamak, kravat
+translucent	almost transparent but allowing some light
+tray	tepsi, tabla
+utensil	aygıt, malzeme, kap (mutfak malzemesi)

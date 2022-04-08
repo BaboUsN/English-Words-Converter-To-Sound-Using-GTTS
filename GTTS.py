@@ -2,14 +2,24 @@ from datetime import date
 from gtts import gTTS
 import os
 from langdetect import detect
+
+
+def stab(arr):
+    word = arr[0]
+    while(len(word) < 15):
+        word += " "
+    word += " | " + arr[1]
+    return word
+
+
 dic = []
 date = date.today().strftime('%Y-%m-%d')
 with open("Speechwords.txt", "r+", encoding="utf-8") as file:
     arr = file.readlines()
     for i in arr:
-        parsed = i.split("\t")
+        parsed = i.split("-")
         dic.append({"en": parsed[0], "tr": parsed[1].split("\n")[0]})
-fileName = arr[0].split("\t")[0]
+fileName = arr[0].split("-")[0]
 counter = len(dic)
 try:
     os.mkdir(os.path.join("./wordsANDsounds", f'{date}({fileName})'))
@@ -17,8 +27,10 @@ except:
     pass
 with open(f'wordsANDsounds/{date}({fileName})/{date}({fileName}).txt', 'w+', encoding="utf-8") as f:
     for i in arr:
-        print(i)
-        f.write(i)
+        parsed = i.split("-")
+        text = stab(parsed)
+        print(text)
+        f.write(text)
 with open(f'wordsANDsounds/{date}({fileName})/{date}({fileName}).mp3', 'wb') as f:
     for i in dic:
         print(f'{counter} - {i["en"]}')
